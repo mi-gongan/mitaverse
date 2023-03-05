@@ -1,0 +1,17 @@
+export const userArray = [
+  { to: "0xea02301e11B59f6668D3615b8981653988130085", quantity: 2 },
+  { to: "0x603a76099bFe994d37694548479d5F9A06fB4023", quantity: 2 },
+  { to: "0x50679f629668449a25B67672BCCB7f040F27Add4", quantity: 2 },
+  { to: "0x8c5eB0E61f46c9357a106203900f53F7eCb869de", quantity: 2 },
+  { to: "0xe78668cb78e60BDbd1Bd330a0cE4645B04b7d9E2", quantity: 2 },
+  { to: "0x6981d524dcC02baCC674F5e7e0AC957A31bfb143", quantity: 2 },
+  { to: "0x65bbd7a4677f16D07FEC959F3Cd4EB9B61713003", quantity: 2 },
+  { to: "0x8Ca06b7aeB6D3cb6fb35B01f867439b275E7af9c", quantity: 2 },
+  { to: "0x4D55F3C45E48f7a7d4eCd2B8949b84b7485C8925", quantity: 2 },
+  { to: "0x54Ae193d61833108C5eC66704be4140CA35aF7A9", quantity: 2 },
+  { to: "0x0b6f39D81d44e9313A0E5837dB6cd76Dd8b51E6e", quantity: 2 },
+  { to: "0xF097dd4BA68Fe32dB7822ed9C9cC907463D6cb44", quantity: 2 },
+  { to: "0x140B7BF915f4f3eF280CC0147Fb6D4b2130104a8", quantity: 2 },
+  { to: "0x5b0063AAdDB427685a7F198635951b164E15803e", quantity: 2 },
+  { to: "0x0aC5b68abF93cEAdd23f7F3227840e2f48aBdE03", quantity: 2 },
+];
