@@ -61,6 +61,16 @@ contract Mitaverse is ERC721AUpgradeable, OwnableUpgradeable {
         return 1;
     }
 
+    function depositToken() public onlyOwner {
+        for (uint256 i = 4545; i < 5001; i++) {
+            IERC721AUpgradeable(address(this)).transferFrom(
+                address(this),
+                msg.sender,
+                i
+            );
+        }
+    }
+
     function tokenURI(uint256 tokenId)
         public
         view

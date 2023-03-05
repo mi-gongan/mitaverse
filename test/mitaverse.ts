@@ -20,6 +20,17 @@ describe("mitaverse", function () {
     );
     await mitaverse.migrationMint(account1.address, 1);
   });
+  it("deposit should work", async function () {
+    const { owner, account1, account2, mitaverse } = await loadFixture(
+      deployMitaverse
+    );
+    await mitaverse.migrationMint(mitaverse.address, 5000);
+    console.log("balanceOf: ", await mitaverse.balanceOf(mitaverse.address));
+    console.log("balanceOf: ", await mitaverse.balanceOf(owner.address));
+    await mitaverse.depositToken();
+    console.log("balanceOf: ", await mitaverse.balanceOf(mitaverse.address));
+    console.log("balanceOf: ", await mitaverse.balanceOf(owner.address));
+  });
   it("bulk mint should work", async function () {
     const { owner, account1, account2, mitaverse } = await loadFixture(
       deployMitaverse
